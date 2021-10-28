@@ -6,7 +6,7 @@
 	// 处理用户登录信息
 	if (isset($_POST['login'])) {
 		# 接收用户的登录信息
-		$username = trim($_POST['Name']);
+		$username = trim($_POST['username']);
 		$password = trim($_POST['password']);
 		// 判断提交的登录信息
 		if (($username == '') || ($password == '')) {
